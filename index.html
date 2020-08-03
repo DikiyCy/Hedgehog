@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Hedgehog</title>
+
+	<link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body class="body" tabindex="0">
+	<!-- header -->
+	<header class="header">
+		<div class="header__back header__back_desctop">
+			<img src="img/bg/background.png" alt="">
+		</div>
+		<div class="header__back header__back_mobile">
+			<img src="img/bg/background__mobile.png" alt="">
+		</div>
+		<div class="container">
+			<svg class="svg svg__burger svg__burger_header">
+				<use xlink:href="icon/sprite.svg#burger"></use>
+			</svg>
+			<a href="#" class="header__logo">
+				<svg class="svg svg__logo svg__logo_header">
+					<use xlink:href="icon/sprite.svg#logo"></use>
+				</svg>
+			</a>
+			<div class="navbar navbar_header">
+				<a href="#" class="navbar__link navbar__link_header">Каталог</a>
+				<div class="navbar__descr navbar__descr_header hidden" >
+					<div class="wrapp"><a href="#" class="navbar__link navbar__link_header_catalog">Ёжики</a></div>
+					<div class="wrapp"><a href="#" class="navbar__link navbar__link_header_catalog">Питание</a></div>
+					<div class="wrapp"><a href="#" class="navbar__link navbar__link_header_catalog">переноски</a></div>
+					<div class="wrapp"><a href="#" class="navbar__link navbar__link_header_catalog">Лекарства</a></div>
+				</div>
+				<a href="#" class="navbar__link navbar__link_header">о нас</a>
+				<a href="#" class="navbar__link navbar__link_header">контакты</a>
+				<a href="#" class="navbar__link navbar__link_header">галерея</a>
+			</div>
+			<a href="tel:+79655698998" class="header__phone">
+				<div class="phone phone_header">
+					<div class="phone__wrapp_1">
+						<svg class="svg svg__phone svg__phone_header">
+							<use xlink:href="icon/sprite.svg#phone"></use>
+						</svg>
+					</div>
+					<div class="phone__wrapp phone__wrapp_2">
+						<div class="phone__descr phone__descr_header">позвоните мне</div>
+						<a href="tel:+79655698998" class="phone__link phone__link_header">+7 (965) 569-89-98</a>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="header__basket">
+				<svg class="svg svg__basket svg__basket_header">
+					<use xlink:href="icon/sprite.svg#basket"></use>
+				</svg>
+			</a>
+
+			<div class="modal modal_header">
+				<svg class="svg svg__cross svg__cross_modal">
+					<use xlink:href="icon/sprite.svg#cross"></use>
+				</svg>
+				<a href="#" class="modal__logo">
+					<svg class="svg svg__logo svg__logo_modal">
+						<use xlink:href="icon/sprite.svg#logo"></use>
+					</svg>
+				</a>
+				<div class="navbar navbar_modal">
+					<a href="#" class="navbar__link navbar__link_modal">Каталог</a>
+					<a href="#" class="navbar__link navbar__link_modal">о нас</a>
+					<a href="#" class="navbar__link navbar__link_modal">контакты</a>
+					<a href="#" class="navbar__link navbar__link_modal">галерея</a>
+				</div>
+				<div class="phone phone_header">
+					<div class="phone__wrapp phone__wrapp_2">
+						<div class="phone__descr phone__descr_header">позвоните мне</div>
+						<a href="tel:+79655698998" class="phone__link phone__link_header">+7 (965) 569-89-98</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- main -->
+	<section class="main">
+		<div class="container">
+			<div class="main__name main__name_big">
+				<img src="icon/big_title.svg" alt="">
+			</div>
+			<div class="main__name main__name_small">
+				<img src="icon/name.svg" alt="">
+			</div>
+			<div class="main__title">тоже любят молоко</div>
+			<div class="main__subtitle">Заведите себе ёжика. Он всегда выслушает, не будет мяукать в 5 утра и царапать вашу мебель.</div>
+			<button class="button button_main">Купить ёжика</button>
+		</div>
+	</section>
+	<!-- about -->
+	<section class="about">
+		<div class="container">
+			<div class="about__wrapper">
+				<div class="about__item">
+					<div class="about__circle about__circle_first">
+						<svg class="svg svg__hedgehog svg__hedgehog_about">
+							<use xlink:href="icon/sprite.svg#hedgehog"></use>
+						</svg>
+					</div>
+					<div class="about__title">разведение ежиков</div>
+					<div class="about__subtitle">Собственная ферма, уход и содержание</div>
+				</div>
+				<div class="about__item">
+					<div class="about__circle about__circle_second">
+						<svg class="svg svg__syringe svg__syringe_about">
+							<use xlink:href="icon/sprite.svg#syringe"></use>
+						</svg>
+					</div>
+					<div class="about__title">здоровье</div>
+					<div class="about__subtitle">Всегда прививаем и вовремя обследуем ваших будущих питомцев</div>
+				</div>
+				<div class="about__item">
+					<div class="about__circle about__circle_fird">
+						<svg class="svg svg__heart svg__heart_about">
+							<use xlink:href="icon/sprite.svg#heart"></use>
+						</svg>
+					</div>
+					<div class="about__title">любовь и забота</div>
+					<div class="about__subtitle">Каждому ежику мы дарим много внимания</div>
+				</div>
+			</div>
+			<div class="about__img about__img_left">
+				<img src="img/png/left_hedgehog.png" alt="hedgehog">
+			</div>
+			<div class="about__img about__img_right">
+				<img src="img/png/right_hedgehog.png" alt="hedgehog">
+			</div>
+		</div>
+	</section>
+	<!-- promo -->
+	<section class="promo">
+		<div class="container">
+			<div class="promo__wrapper">
+				<div class="card">
+					<div class="card__discount">-50 %</div>
+					<div class="card__title">Ежик “Евгений”</div>
+					<div class="card__subtitle">
+						Очень любит сладости. Маленький сладкоежка=) Мы называем его так между собой. Ручной, любит внимаение
+					</div>
+					<div class="card__oldPrise">3 000 ₽</div>
+					<div class="card__newPrise">1 500 ₽</div>
+					<div class="card__img">
+						<img src="img/png/prise_hedgehog.png" alt="hedgehog">
+					</div>
+					<div class="card__wrapper">
+						<svg class="svg svg__info svg__info_card">
+							<use xlink:href="icon/sprite.svg#info"></use>
+						</svg>
+						<div class="card__info">
+							<div class="info__health">
+								<svg class="svg svg__syringe svg__syringe_info">
+									<use xlink:href="icon/sprite.svg#syringe"></use>
+								</svg>
+								<div class="info__descr">Привит</div>
+							</div>
+							<div class="info__like">
+								<svg class="svg svg__heart svg__heart_info">
+									<use xlink:href="icon/sprite.svg#heart"></use>
+								</svg>
+								<div class="info__descr">1235</div>
+							</div>
+						</div>
+					</div>
+					<svg class="svg svg__plus svg__plus_card">
+						<use xlink:href="icon/sprite.svg#plus"></use>
+					</svg>
+				</div>
+
+				<div class="card">
+					<div class="card__discount">-50 %</div>
+					<div class="card__title">Ежик “Максим”</div>
+					<div class="card__subtitle">
+						Очень любит сладости. Маленький сладкоежка=) Мы называем его так между собой. Ручной, любит внимаение
+					</div>
+					<div class="card__oldPrise">3 000 ₽</div>
+					<div class="card__newPrise">1 500 ₽</div>
+					<div class="card__img">
+						<img src="img/png/prise_hedgehog.png" alt="hedgehog">
+					</div>
+					<div class="card__wrapper">
+						<svg class="svg svg__info svg__info_card">
+							<use xlink:href="icon/sprite.svg#info"></use>
+						</svg>
+						<div class="card__info">
+							<div class="info__health">
+								<svg class="svg svg__syringe svg__syringe_info">
+									<use xlink:href="icon/sprite.svg#syringe"></use>
+								</svg>
+								<div class="info__descr">Привит</div>
+							</div>
+							<div class="info__like">
+								<svg class="svg svg__heart svg__heart_info">
+									<use xlink:href="icon/sprite.svg#heart"></use>
+								</svg>
+								<div class="info__descr">1235</div>
+							</div>
+						</div>
+					</div>
+					<svg class="svg svg__plus svg__plus_card">
+						<use xlink:href="icon/sprite.svg#plus"></use>
+					</svg>
+				</div>
+
+				<div class="card">
+					<div class="card__title">Корм для ёжиков</div>
+					<div class="card__subtitle">
+						Скомбинированое питание, которое содержит нужное количество витаминов и кальция
+					</div>
+					<div class="card__newPrise">500 ₽</div>
+					<div class="card__img">
+						<img src="img/png/food.png" alt="food for hedgehog">
+					</div>
+					<svg class="svg svg__plus svg__plus_card">
+						<use xlink:href="icon/sprite.svg#plus"></use>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<a href="#" class="footer__logo">
+					<svg class="svg svg__logo svg__logo_footer">
+						<use xlink:href="icon/sprite.svg#logo"></use>
+					</svg>
+				</a>
+				<div class="navbar navbar_footer">
+					<a href="#" class="navbar__link navbar__link_footer">Каталог</a>
+					<a href="#" class="navbar__link navbar__link_footer">о нас</a>
+					<a href="#" class="navbar__link navbar__link_footer">контакты</a>
+					<a href="#" class="navbar__link navbar__link_footer">галерея</a>
+				</div>
+				<div class="wrapper">
+					<div class="footer__icon">
+						<a href="#" class="footer__link">
+							<svg class="svg svg__instargam svg__instargam_foter">
+								<use xlink:href="icon/sprite.svg#instargam"></use>
+							</svg>
+						</a>
+						<a href="#" class="footer__link">
+							<svg class="svg svg__facebook svg__facebook_foter">
+								<use xlink:href="icon/sprite.svg#facebook"></use>
+							</svg>
+						</a>
+						<a href="#" class="footer__link">
+							<svg class="svg svg__twitter svg__twitter_foter">
+								<use xlink:href="icon/sprite.svg#twitter"></use>
+							</svg>
+						</a>
+					</div>
+					<div class="phone phone_footer">
+						<a href="tel:+79655698998" class="footer__phone">
+							<div class="phone__descr phone__descr_footer">позвоните мне</div>
+							<a href="tel:+79655698998" class="phone__link phone__link_footer">+7 (965) 569-89-98</a>
+						</a>
+					</div>
+				</div>
+
+				<div class="footer__descrip">
+					Все права защищены. </br>
+					Указанная стоимость товаров и условия их приобретения действительны на текущую дату
+				</div>
+			</div>
+			<div class="footer__img">
+				<img src="img/bg/left_subtract.png" alt="back">
+			</div>
+			<div class="footer__img">
+				<img src="img/bg/right_subtract.png" alt="back">
+			</div>
+		</div>
+	</footer>
+	<!-- popup -->
+	<section class="popup hidden">
+		<div class="container">
+			<div class="wrapper">
+				<svg class="svg svg__cross svg__cross_popup">
+					<use xlink:href="icon/sprite.svg#cross"></use>
+				</svg>
+				<div class="popup__title">получить бесплатную консультацию</div>
+				<form action="" class="popup__form" method="POST">
+					<select class="popup__select popup__select_focus" name="city" placeholder="Санкт-Петербург" title="Для выбора нескольких вариантов: 'ctrl' + клик" >
+						<option id="opt1" title="Для выбора нескольких вариантов: 'ctrl' + клик" >Санкт-Петербург</option>
+						<option id="opt2" title="Для выбора нескольких вариантов: 'ctrl' + клик" >Москва</option>
+						<option id="opt3" title="Для выбора нескольких вариантов: 'ctrl' + клик" >Новосибирск</option>
+					</select>
+					<input class="popup__input" type="text" name="name" placeholder="Ваше имя" title="Введите ваше имя" pattern="[A-Za-zА-Яа-яЁё]{4,}" required>
+					<input class="popup__input" type="text" name="phone" placeholder="Телефон" title="Введите ваш телефон c '8' или '+7'" type="tel" pattern="^((\+7)|8)[0-9]{10}$" required>
+					<div class="popup__checkboxes">
+						<div class="popup__wrapper">
+							<input class="popup__checkbox" type="checkbox" name="buy" id="buy">
+							<label class="popup__label popup__label_buy" for="buy">Хочу приобрести ёжика</label>
+						</div>
+						<div class="popup__wrapper">
+							<input class="popup__checkbox" type="checkbox" name="detail" id="detail">
+							<label class="popup__label popup__label_detail" for="detail">Хочу узнать подробности об уходе</label>
+						</div>
+						<div class="popup__wrapper">
+							<input class="popup__checkbox" type="checkbox" name="purchase" id="purchase">
+							<label class="popup__label popup__label_purchase" for="purchase">Хочу узнать подробности о покупке</label>
+						</div>
+					</div>
+					<input class="button button_popup" type="submit" formenctype="multipart/form-data">
+					<div class="popup__descr">
+						Нажимая кнопку ОТПРАВИТЬ вы соглашаетесь с <a href="#" class="popup__link">условиями обработки данных</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

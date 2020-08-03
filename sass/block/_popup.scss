@@ -1,0 +1,166 @@
+.popup {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,.36);
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    .container  {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .wrapper {
+        position: relative;
+        width: 95%;
+        max-width: 579px;
+        min-height: 300px;
+        padding: 51px 72px 55px 66px;
+        background-color: $light;
+        border-radius: 10px;
+        overflow: auto;
+    }
+    &__title {
+        font-family: 'Cormorant Infant';
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $greenDark;
+        margin-bottom: 27px;
+    }
+    &__select {
+        display: block;
+        width: 100%;
+        max-width: 441px;
+        height: 23px;
+        margin-bottom: 22px;
+        font-family: 'Raleway';
+        font-weight: normal;
+        font-size: 12px;
+        color: #195557;
+        background-color: $grey2;
+        border-radius: 4px;
+        &_focus {
+            padding: 5px 0 5px 5px;
+            outline: none;
+            height: 100%;
+        }
+        option {
+            margin-bottom: 5px;
+            background-color: $grey2;
+            font-family: 'Raleway';
+            font-weight: normal;
+            font-size: 12px;
+            color: #195557;
+            border-radius: 4px;
+        }
+    }
+    &__input {
+        width: 100%;
+        height: 62px;
+        max-width: 441px;
+        margin-bottom: 11px;
+        padding-left: 27px;
+        background-color: $grey2;
+        border: none;
+        border-radius: 8px;
+        font-family: 'Raleway';
+        font-weight: normal;
+        font-size: 14px;
+        color: $greenDark;
+        &::-webkit-input-placeholder {
+            color: $greenDark;
+        }
+        &::-moz-placeholder {
+            color: $greenDark;
+        }
+        &:focus {
+            outline: none;
+        }
+        &:nth-child(3) {
+            margin-bottom: 28px;
+        }
+        &:disabled {
+            background-color: $white;
+            color: $grey;
+            &::-webkit-input-placeholder {
+                color: $grey;
+            }
+            &::-moz-placeholder {
+                color: $grey;
+            }
+        }
+    }
+    &__checkbox {
+        display: none;
+        margin-bottom: 10px;
+        cursor: pointer;
+        &:nth-of-type(3) {
+            margin-bottom: 36px;
+        }
+    }
+    &__wrapper {
+        display: block;
+        font-family: 'Raleway';
+        font-weight: normal;
+        font-size: 12px;
+        color: $greenDark;
+        margin-bottom: 10px;
+        &:nth-of-type(3) {
+            margin-bottom: 36px;
+        }
+    }
+    &__label {
+        display: inline;
+        font-family: 'Raleway';
+        font-weight: normal;
+        font-size: 12px;
+        color: $greenDark;
+        cursor: pointer;
+        &::before {
+            content: '';
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 2px;
+            border: 1px solid $green;
+            background-color: $grey2;
+            margin-right: 9px;
+        }
+    }
+    &__checkbox:checked + label::before {
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+        border: 1px solid $green;
+        background: url('../icon/add.svg') center (center/cover) no-repeat, $grey2;
+    }
+    &__checkbox:disabled + label::before {
+        border: 1px solid $grey;
+        background: url('../icon/add_gray.svg') center (center/cover) no-repeat, $white;
+    }
+    &__checkbox:disabled + label {
+        color: $grey;
+    }
+
+    &__descr {
+        font-family: 'Raleway';
+        font-weight: normal;
+        font-size: 10px;
+        color: $greenDark;
+        text-align: center;
+        vertical-align: middle;
+        a {
+            color: $greenDark;
+            text-decoration: underline;
+            &:hover, &:focus {
+                color: $greenDark;
+            }
+        }
+    }
+}

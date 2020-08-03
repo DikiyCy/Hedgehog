@@ -1,0 +1,41 @@
+@import 'base/variables';
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'libs/font.scss';
+
+.body {
+    width: 100%;
+    overflow-x: hidden;
+    &_overflow {
+        overflow: hidden;
+    }
+}
+.container {
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 21px;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+
+@import 'block/svg';
+@import 'block/header';
+@import 'block/navbar';
+@import 'block/main';
+@import 'block/button';
+@import 'block/about';
+@import 'block/promo';
+@import 'block/footer';
+@import 'block/phone';
+@import 'block/popup';
+@import 'block/modal';
+
+.hidden {
+    display: none;
+}
+
+
+// _________________
+@import 'base/media';

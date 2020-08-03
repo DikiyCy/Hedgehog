@@ -1,0 +1,163 @@
+.svg {
+    cursor: pointer;
+    &__burger {
+        &_header {
+            display: none;
+            position: absolute;
+            width: 25px;
+            height: 14px;
+        }
+    }
+    &__logo {
+        &_header {
+            width: 120px;
+            height: 56px;
+            fill: $greenDark;
+            fill-opacity: 0.5;
+        }
+        &_modal {
+            width: 56px;
+            height: 26px;
+            fill: $greenDark;
+            // margin: 0 auto;
+            margin-left: 91px;
+            display: block;
+            margin-bottom: 56px;
+        }
+        &_footer {
+            max-width: 132px;
+            max-height: 56px;
+            min-width: 120px;
+            min-width: 56px;
+            fill: $light;
+        }
+    }
+    &__phone {
+        &_header {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30px;
+            height: 30px;
+            fill: $white;
+        }
+    }
+    &__basket {
+        &_header {
+            width: 36px;
+            height: 32px;
+        }
+    }
+    &__hedgehog {
+        &_about {
+            width: 72px;
+            height: 72px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            fill: none;
+        }
+    }
+    &__syringe {
+        &_about {
+            width: 46px;
+            height: 46px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            fill: $greenDark;
+        }
+    }
+    &__heart {
+        &_about {
+            width: 43px;
+            height: 43px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            fill: $greenDark;
+        }
+    }
+    &__info {
+        &_card {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            top: 20px;
+            right: 30px;
+        }
+    }
+    &__plus {
+        &_card {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            bottom: -7px;
+            right: -2px;
+            z-index: 10;
+        }
+    }
+    &__syringe {
+        &_info {
+            fill: $light;
+            width: 26px;
+            height: 26px;
+        }
+    }
+    &__heart {
+        &_info {
+            fill: $light;
+            width: 22px;
+            height: 26px;
+        }
+    }
+    &__instargam {
+        width: 40px;
+        height: 40px;
+        fill: $light;
+        &:hover {
+            filter: drop-shadow( 0px 4px 4px rgba(0, 0, 0, 0.25) );
+        }
+    }
+    &__facebook {
+        max-width: 40px;
+        max-height: 40px;
+        fill: $light;
+        &:hover {
+            filter: drop-shadow( 0px 4px 4px rgba(0, 0, 0, 0.25) )
+        }
+    }
+    &__twitter {
+        max-width: 40px;
+        max-height: 40px;
+        fill: $light;
+        &:hover {
+            filter: drop-shadow( 0px 4px 4px rgba(0, 0, 0, 0.25) )
+        }
+    }
+    &__cross {
+        &_popup {
+            width: 37px;
+            height: 37px;
+            position: absolute;
+            top: 8px;
+            right: 13px;
+        }
+        &_modal {
+            width: 37px;
+            height: 37px;
+            position: absolute;
+            top: 8px;
+            left: 13px;
+        }
+    }
+    &__add {
+        width: 6px;
+        height: 6px;
+    }
+
+}

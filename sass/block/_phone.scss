@@ -1,0 +1,80 @@
+.phone {
+    &_header {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        margin-right: 80px;
+        cursor: pointer;
+        &:hover {
+            .phone__wrapp_1 {
+                background: $gradient;
+            }
+            .svg__phone_header {
+                fill: #195557;
+            }
+        }
+    }
+    &__wrapp {
+        &_1 {
+            position: relative;
+            width: 69px;
+            height: 69px;
+            border-radius: 100%;
+            background-color: $green;
+            margin-right: 20px;
+            box-shadow: -4px -4px 20px #FFFFFF, 4px 4px 20px #CFD7D3;
+        }
+        &_2 {
+            width: 194px;
+        }
+    }
+    &_footer {
+        height: 43px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    &__descr {
+        &_header {
+            font-family: 'Raleway';
+            font-weight: 500;
+            font-size: 14px;
+            text-decoration-line: underline;
+            text-transform: lowercase;
+            color: $greenDark;
+        }
+        &_footer {
+            font-family: 'Raleway';
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            text-decoration-line: underline;
+            text-transform: lowercase;
+            color: $light;
+        }
+    }
+    &__link {
+        &_header {
+            font-family: 'Raleway';
+            font-weight: 500;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: $greenDark;
+            &:hover {
+                color: $greenDark;
+            }
+        }
+        &_footer {
+            font-family: 'Raleway';
+            font-weight: 500;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: $light;
+            &:hover {
+                color: $light;
+            }
+        }
+    }
+}

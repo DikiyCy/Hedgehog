@@ -1,0 +1,46 @@
+.button {
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    background: $green;
+    box-shadow: 4px 4px 20px $greyLight, -8px -8px 20px $light;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 14px;
+    color: $white;
+    &:focus{
+        outline: none;
+    }
+    &:hover {
+        color: $greenDark;
+        background: $gradientButton;
+    }
+    &_main {
+        max-width: 328px;
+        min-width: 281px;
+        height: 69px;
+    }
+    &_popup {
+        max-width: 441px;
+        min-width: 181px;
+        height: 69px;
+        margin-bottom: 18px;
+        &:disabled {
+            background-color: $grey2;
+            box-shadow: none;
+            color: $grey;
+            &:hover {
+                color: $grey;
+                background: $grey2;
+            }
+        }
+    }
+    // &_disabled {
+    //     background: red;
+    //     // background: $grey;
+    //     &:hover {
+    //         color: $greenDark;
+    //         background: red;
+    //     }
+    // }
+}

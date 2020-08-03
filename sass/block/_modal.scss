@@ -1,0 +1,17 @@
+.modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -301px;
+    width: 290px;
+    height: 480px;
+    padding: 17px 0 43px 40px;
+    background-color: $light;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 4px 4px 20px $shadow;
+    z-index: 5;
+    &_active {
+        transform: translateX(301px);
+        transition: 1s;
+    }
+}
