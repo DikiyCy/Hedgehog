@@ -175,10 +175,6 @@ window.addEventListener('DOMContentLoaded', () => {
         addClass(popup, classHidden);
         removeClass(body, 'body_overflow');
     });
-    popupContainer.addEventListener('click', () => {
-        addClass(popup, classHidden);
-        removeClass(body, 'body_overflow');
-    });
     window.addEventListener('keydown', (event) => {
         if (event.key === "Escape") {
             addClass(popup, classHidden)
